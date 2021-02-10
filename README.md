@@ -24,7 +24,7 @@ git clone https://github.com/joaopaulomoraes/react-tailwindcss-boilerplate.git r
 
 Access the project directory.
 ```bash
-> cd react-tailwindcss-boilerplate
+cd react-tailwindcss-boilerplate
 ```
 
 Install dependencies.
@@ -38,6 +38,10 @@ yarn start
 ```
 
 ### Testing
+
+```
+yarn test
+```
 
 ## License
 
