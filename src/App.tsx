@@ -1,10 +1,10 @@
 const App = () => {
   return (
-    <div className="flex flex-col justify-center min-h-screen py-6 bg-gray-100 sm:py-12">
-      <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-        <div className="absolute inset-0 transform -skew-y-6 shadow-lg bg-gradient-to-r from-cyan-400 to-light-blue-500 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-        <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-          <div className="max-w-md mx-auto">
+    <div className="flex flex-col justify-center py-6 sm:py-12 min-h-screen bg-gray-100">
+      <div className="relative py-3 sm:mx-auto sm:max-w-xl">
+        <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 sm:rounded-3xl shadow-lg transform sm:-rotate-6 -skew-y-6 sm:skew-y-0"></div>
+        <div className="relative sm:p-20 py-10 px-4 bg-white sm:rounded-3xl shadow-lg">
+          <div className="mx-auto max-w-md">
             <div>
               <img
                 src="https://play.tailwindcss.com/img/logo.svg"
@@ -12,7 +12,7 @@ const App = () => {
               />
             </div>
             <div className="divide-y divide-gray-200">
-              <div className="py-8 space-y-4 text-base leading-6 text-gray-700 sm:text-lg sm:leading-7">
+              <div className="py-8 space-y-4 text-base sm:text-lg leading-6 sm:leading-7 text-gray-700">
                 <p>
                   An advanced online playground for Tailwind CSS, including
                   support for things like:
@@ -84,7 +84,7 @@ const App = () => {
                   new idea, or creating a demo to share online.
                 </p>
               </div>
-              <div className="pt-6 text-base font-bold leading-6 sm:text-lg sm:leading-7">
+              <div className="pt-6 text-base sm:text-lg font-bold leading-6 sm:leading-7">
                 <p>Want to dig deeper into Tailwind?</p>
                 <p>
                   <a
