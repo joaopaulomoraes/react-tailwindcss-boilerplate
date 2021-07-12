@@ -1,4 +1,4 @@
-# React Tailwindcss Bolerplate
+# React Tailwindcss Boilerplate
 
 This is a [React](https://react.org) boilerplate to be used with [Tailwindcss](https://tailwindcss.com).
 
